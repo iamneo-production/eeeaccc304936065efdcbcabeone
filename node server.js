@@ -6,5 +6,5 @@ function handleMove(index){
     if(board[index]==="){
         board[index]=currentplayer;
         document.getElementsByClassName('cell')
-    [i]    }
+    [index].innerText=currentplayer;   }
 }
